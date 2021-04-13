@@ -1,7 +1,7 @@
 #!/bin/bash
 
-QUEUE_FILENAME=/home/pi/muzon/muzon_bot/UrlsList.txt
-CURRENT_TRACK_FILE=/home/pi/muzon/muzon_bot/CurrentTrack.txt
+QUEUE_FILENAME=~/bloodseeker/UrlsList.txt
+CURRENT_TRACK_FILE=~/bloodseeker/CurrentTrack.txt
 TMP_Q=/tmp/qnwoiqkpoudyiqwydiq
 
 function pop(){
@@ -26,4 +26,3 @@ do
         	sleep 3
 	fi
 done
-

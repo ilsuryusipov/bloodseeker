@@ -7,6 +7,9 @@ systemctl --user stop player.service
 # Create log folder
 mkdir -p ./logs
 
+# Create UrlsList.txt
+touch ./UrlsList.txt
+
 # Install unit-files
 mkdir -p ~/.config/systemd/user/
 cp -v *.service ~/.config/systemd/user

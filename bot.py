@@ -88,7 +88,7 @@ def get_next_song():
 def skip_track():
 	print('skip_track')
 	import os
-	os.system('systemctl --user restart muzon-player.service')
+	os.system('systemctl --user restart player.service')
 	return 'Skipped!'
 
 @bot.message_handler()
