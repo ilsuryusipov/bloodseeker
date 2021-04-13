@@ -1,0 +1,12 @@
+[Unit]
+Description=Bloodseeker VLC Player
+
+[Service]
+WorkingDirectory=%h/bloodseeker
+ExecStart=%h/bloodseeker/player.sh
+StandardOutput=append:%h/bloodseeker/logs/player.log
+StandardError=append:%h/bloodseeker/logs/player.log
+Restart=always
+
+[Install]
+WantedBy=default.target

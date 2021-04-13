@@ -1,0 +1,13 @@
+[Unit]
+Description=Bloodseeker Telegram Bot
+
+[Service]
+Environment="PYTHONUNBUFFERED=1"
+WorkingDirectory=%h/bloodseeker
+ExecStart=%h/bloodseeker/bot.py
+StandardOutput=append:%h/bloodseeker/logs/bot.log
+StandardError=append:%h/bloodseeker/logs/bot.log
+Restart=always
+
+[Install]
+WantedBy=default.target
