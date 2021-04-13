@@ -15,7 +15,7 @@ do
         url=$(pop)
 
 	if [ -z "$url" ]; then
-		echo "Nothing popped, sleeping"
+		# echo "Nothing popped, sleeping"
 		rm -f $CURRENT_TRACK_FILE
 		sleep 3
 	else
