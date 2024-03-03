@@ -24,3 +24,7 @@ systemctl --user enable player.service
 # First run
 systemctl --user start bot.service
 systemctl --user start player.service
+
+# pip3 install req
+# install tor
+# install vlc
